@@ -49,7 +49,8 @@ export default function Hero() {
           </div>
         </div>
 
-        <div data-reveal data-reveal-delay="200" className="hidden lg:block">
+        <div data-reveal data-reveal-delay="200">
+        {/* <div data-reveal data-reveal-delay="200" className="hidden lg:block"> */}
           <div className="overflow-hidden rounded-2xl border border-[#27272A] bg-[#111113] shadow-2xl">
             <div className="flex items-center gap-2 border-b border-[#27272A] px-5 py-4">
               <span className="h-3 w-3 rounded-full bg-[#27272A]" />
